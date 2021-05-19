@@ -1,0 +1,24 @@
+{
+  "name": "react-native-penknife",
+  "version": "1.0.0",
+  "description": "Bunch of useful tools for React Native projects. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KirillPopovsky/react-native-penknife.git"
+  },
+  "keywords": [
+    "tools",
+    "helpers",
+    "penknife"
+  ],
+  "author": "Kirill Popovsky",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KirillPopovsky/react-native-penknife/issues"
+  },
+  "homepage": "https://github.com/KirillPopovsky/react-native-penknife#readme"
+}
