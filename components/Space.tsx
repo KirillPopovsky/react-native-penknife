@@ -1,7 +1,7 @@
 import React, {ReactElement} from "react";
 import {View, ViewStyle} from "react-native";
 
-interface IProps extends ViewStyle {
+export interface ISpaceProps extends ViewStyle {
   children?: any;
   visible?: boolean;
   flexHeight?: number;
@@ -9,7 +9,7 @@ interface IProps extends ViewStyle {
   height?: number;
 }
 
-export const Space = React.memo((props: IProps): ReactElement | null => {
+export const Space = React.memo((props: ISpaceProps): ReactElement | null => {
   const {visible, children, flexHeight, flexWidth, height} = props;
 
   const maxWidth = flexWidth;
